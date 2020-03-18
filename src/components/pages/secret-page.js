@@ -11,7 +11,7 @@ const SecretPage = ({ isLoggedIn }) => {
         );
     }
 
-    return <Redirect to="/login" />;
+    return <Redirect to="/ReactJS-StarWarsAPI-Website/login" />;
 
 };
 

@@ -13,19 +13,19 @@ const Header = ({ onServiceChange }) => {
             </h3>
             <ul className="d-flex">
                 <li>
-                    <Link to="/people/">People</Link>
+                    <Link to="/ReactJS-StarWarsAPI-Website/people/">People</Link>
                 </li>
                 <li>
-                    <Link to="/planets/">Planets</Link>
+                    <Link to="/ReactJS-StarWarsAPI-Website/planets/">Planets</Link>
                 </li>
                 <li>
-                    <Link to="/starships/">Starships</Link>
+                    <Link to="/ReactJS-StarWarsAPI-Website/starships/">Starships</Link>
                 </li>
                 <li>
-                    <Link to="/login">Login</Link>
+                    <Link to="/ReactJS-StarWarsAPI-Website/login">Login</Link>
                 </li>
                 <li>
-                    <Link to="/secret">Secret</Link>
+                    <Link to="/ReactJS-StarWarsAPI-Website/secret">Secret</Link>
                 </li>
             </ul>
 
