@@ -68,19 +68,19 @@ export default class App extends Component {
                                 <Route path="/ReactJS-StarWarsAPI-Website"
                                        render={() => <h2>Welcome to StarDB</h2>}
                                        exact/>
-                                <Route path="/people/:id?"
+                                <Route path="ReactJS-StarWarsAPI-Website/people/:id?"
                                        component={PeoplePage}/>
-                                <Route path="/planets" component={PlanetsPage}/>
-                                <Route path="/starships" exact
+                                <Route path="ReactJS-StarWarsAPI-Website/planets" component={PlanetsPage}/>
+                                <Route path="ReactJS-StarWarsAPI-Website/starships" exact
                                        component={StarshipsPage}/>
-                                <Route path="/starships/:id"
+                                <Route path="ReactJS-StarWarsAPI-Website/starships/:id"
                                        render={({match}) => {
                                            const {id} = match.params;
                                            return <StarshipDetails itemId={id}/>
                                        }}/>
 
                                 <Route
-                                    path="/login"
+                                    path="ReactJS-StarWarsAPI-Website/login"
                                     render={() => (
                                         <LoginPage
                                             isLoggedIn={isLoggedIn}
@@ -88,7 +88,7 @@ export default class App extends Component {
                                     )}/>
 
                                 <Route
-                                    path="/secret"
+                                    path="ReactJS-StarWarsAPI-Website/secret"
                                     render={() => (
                                         <SecretPage isLoggedIn={isLoggedIn}/>
                                     )}/>
