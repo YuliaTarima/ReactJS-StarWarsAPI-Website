@@ -7,25 +7,25 @@ const Header = ({ onServiceChange }) => {
     return (
         <div className="header d-flex">
             <h3>
-                <Link to="/">
+                <Link to="/ReactJS-StarWarsAPI-Website">
                     StarDB
                 </Link>
             </h3>
             <ul className="d-flex">
                 <li>
-                    <Link to="ReactJS-StarWarsAPI-Website/people/">People</Link>
+                    <Link to="/people/">People</Link>
                 </li>
                 <li>
-                    <Link to="ReactJS-StarWarsAPI-Website/planets/">Planets</Link>
+                    <Link to="/planets/">Planets</Link>
                 </li>
                 <li>
-                    <Link to="ReactJS-StarWarsAPI-Website/starships/">Starships</Link>
+                    <Link to="/starships/">Starships</Link>
                 </li>
                 <li>
-                    <Link to="ReactJS-StarWarsAPI-Website/login">Login</Link>
+                    <Link to="/login">Login</Link>
                 </li>
                 <li>
-                    <Link to="ReactJS-StarWarsAPI-Website/secret">Secret</Link>
+                    <Link to="/secret">Secret</Link>
                 </li>
             </ul>
 
