@@ -56,7 +56,7 @@ export default class App extends Component {
         <RandomPlanet />
 
         <Switch>
-        <Route path="/"
+        <Route path="/ReactJS-StarWarsAPI-Website"
         render={() => <h2>Welcome to StarDB</h2>}
         exact />
         <Route path="/people/:id?" component={PeoplePage} />
